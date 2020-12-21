@@ -9,7 +9,7 @@
 		"compile": "tsc",
 		"copy": "cpy 'src/*' '!src/index.ts' dist",
 		"build": "npm run clean && npm run lint && npm run copy && npm run compile",
-		"up": "git pull git@github.com:mm-core/base.git master"
+		"up": "git pull git@github.com:mm-core/base.git main"
 	},
 	"repository": {
 		"type": "https+git",
